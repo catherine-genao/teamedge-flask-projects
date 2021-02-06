@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <h1>Here are the holidays of the year!</h1>
+{% for hoilday in data %}
+<h3>{{hoilday['localName']}}</h3>
+ <h3>{{hoilday['date']}}</h3>
+ <h2>{{hoilday['countryCode']}}</h2>
+    {% endfor %}
+</body> 
+
+</html>
